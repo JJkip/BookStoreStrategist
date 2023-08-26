@@ -16,6 +16,7 @@
 		DDDA745B2A96A57100CCC408 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA745A2A96A57100CCC408 /* Book.swift */; };
 		DDDA745D2A96A62100CCC408 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA745C2A96A62100CCC408 /* Sale.swift */; };
 		DDDA74602A96A63B00CCC408 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA745F2A96A63B00CCC408 /* Expense.swift */; };
+		DDDA74622A9A9D1900CCC408 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74612A9A9D1900CCC408 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DDDA745A2A96A57100CCC408 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		DDDA745C2A96A62100CCC408 /* Sale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		DDDA745F2A96A63B00CCC408 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		DDDA74612A9A9D1900CCC408 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				DDDA745A2A96A57100CCC408 /* Book.swift */,
 				DDDA745C2A96A62100CCC408 /* Sale.swift */,
 				DDDA745F2A96A63B00CCC408 /* Expense.swift */,
+				DDDA74612A9A9D1900CCC408 /* Customer.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				DDDA74602A96A63B00CCC408 /* Expense.swift in Sources */,
 				DDDA74572A96A54700CCC408 /* BookCategoty.swift in Sources */,
 				DDDA744A2A96A4C800CCC408 /* ContentView.swift in Sources */,
+				DDDA74622A9A9D1900CCC408 /* Customer.swift in Sources */,
 				DDDA74592A96A56500CCC408 /* Author.swift in Sources */,
 				DDDA745B2A96A57100CCC408 /* Book.swift in Sources */,
 				DDDA745D2A96A62100CCC408 /* Sale.swift in Sources */,
