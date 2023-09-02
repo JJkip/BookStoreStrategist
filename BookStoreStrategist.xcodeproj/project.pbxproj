@@ -20,6 +20,9 @@
 		DDDA74652A9D33F000CCC408 /* SalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74642A9D33F000CCC408 /* SalesViewModel.swift */; };
 		DDDA74672A9D340C00CCC408 /* MaxMinSalesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74662A9D340C00CCC408 /* MaxMinSalesViewModel.swift */; };
 		DDDA74692A9D341F00CCC408 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74682A9D341F00CCC408 /* ExpenseViewModel.swift */; };
+		DDDA74702AA3D3D300CCC408 /* DailySalesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA746F2AA3D3D300CCC408 /* DailySalesChartView.swift */; };
+		DDDA74722AA3D3E700CCC408 /* WeeklySalesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74712AA3D3E700CCC408 /* WeeklySalesChartView.swift */; };
+		DDDA74742AA3D3F700CCC408 /* MonthlySalesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA74732AA3D3F700CCC408 /* MonthlySalesChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		DDDA74642A9D33F000CCC408 /* SalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesViewModel.swift; sourceTree = "<group>"; };
 		DDDA74662A9D340C00CCC408 /* MaxMinSalesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMinSalesViewModel.swift; sourceTree = "<group>"; };
 		DDDA74682A9D341F00CCC408 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		DDDA746F2AA3D3D300CCC408 /* DailySalesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySalesChartView.swift; sourceTree = "<group>"; };
+		DDDA74712AA3D3E700CCC408 /* WeeklySalesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySalesChartView.swift; sourceTree = "<group>"; };
+		DDDA74732AA3D3F700CCC408 /* MonthlySalesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlySalesChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		DDDA74462A96A4C800CCC408 /* BookStoreStrategist */ = {
 			isa = PBXGroup;
 			children = (
+				DDDA746A2AA3D34C00CCC408 /* view */,
 				DDDA74632A9D338300CCC408 /* view model */,
 				DDDA74552A96A52A00CCC408 /* model */,
 				DDDA74472A96A4C800CCC408 /* BookStoreStrategistApp.swift */,
@@ -108,6 +115,48 @@
 				DDDA74682A9D341F00CCC408 /* ExpenseViewModel.swift */,
 			);
 			path = "view model";
+			sourceTree = "<group>";
+		};
+		DDDA746A2AA3D34C00CCC408 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA746E2AA3D39B00CCC408 /* expenses stats */,
+				DDDA746D2AA3D38800CCC408 /* book category stats */,
+				DDDA746C2AA3D37200CCC408 /* weekday stats */,
+				DDDA746B2AA3D35A00CCC408 /* sales stats */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DDDA746B2AA3D35A00CCC408 /* sales stats */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA746F2AA3D3D300CCC408 /* DailySalesChartView.swift */,
+				DDDA74712AA3D3E700CCC408 /* WeeklySalesChartView.swift */,
+				DDDA74732AA3D3F700CCC408 /* MonthlySalesChartView.swift */,
+			);
+			path = "sales stats";
+			sourceTree = "<group>";
+		};
+		DDDA746C2AA3D37200CCC408 /* weekday stats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "weekday stats";
+			sourceTree = "<group>";
+		};
+		DDDA746D2AA3D38800CCC408 /* book category stats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "book category stats";
+			sourceTree = "<group>";
+		};
+		DDDA746E2AA3D39B00CCC408 /* expenses stats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "expenses stats";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +231,15 @@
 			files = (
 				DDDA74602A96A63B00CCC408 /* Expense.swift in Sources */,
 				DDDA74672A9D340C00CCC408 /* MaxMinSalesViewModel.swift in Sources */,
+				DDDA74742AA3D3F700CCC408 /* MonthlySalesChartView.swift in Sources */,
 				DDDA74572A96A54700CCC408 /* BookCategoty.swift in Sources */,
 				DDDA744A2A96A4C800CCC408 /* ContentView.swift in Sources */,
 				DDDA74622A9A9D1900CCC408 /* Customer.swift in Sources */,
 				DDDA74592A96A56500CCC408 /* Author.swift in Sources */,
 				DDDA74692A9D341F00CCC408 /* ExpenseViewModel.swift in Sources */,
 				DDDA745B2A96A57100CCC408 /* Book.swift in Sources */,
+				DDDA74702AA3D3D300CCC408 /* DailySalesChartView.swift in Sources */,
+				DDDA74722AA3D3E700CCC408 /* WeeklySalesChartView.swift in Sources */,
 				DDDA74652A9D33F000CCC408 /* SalesViewModel.swift in Sources */,
 				DDDA745D2A96A62100CCC408 /* Sale.swift in Sources */,
 				DDDA74482A96A4C800CCC408 /* BookStoreStrategistApp.swift in Sources */,
