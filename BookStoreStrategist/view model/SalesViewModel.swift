@@ -19,7 +19,8 @@ class SalesViewModel: ObservableObject {
     @Published var lastTotalSales: Int = 0
     
     var salesByWeek: [(day: Date, sales: Int)] {
-        
+        let salesByWeek = salesGroupedByWeek(sales: salesData)
+        return totalSalesPerDate(salesBydate: salesByWeek)
     }
     
     init() {
