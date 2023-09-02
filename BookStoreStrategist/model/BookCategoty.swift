@@ -21,17 +21,17 @@ enum BookCategory: String, Identifiable, CaseIterable {
     var displayName: String {
         switch self {
             case .fiction:
-                "Fiction"
+                return "Fiction"
             case .biography:
-                "Biography"
+                return "Biography"
             case .children:
-                "Children Books"
+                return "Children Books"
             case .computerScience:
-                "Computer Science"
+                return"Computer Science"
             case .fantasy:
-                "Fantasy"
+                return "Fantasy"
             case .business:
-                "Business"
+                return "Business"
         }
     }
 }

@@ -50,9 +50,9 @@ enum ExpenseCategory {
     var displayName: String {
         switch self {
             case .fixed:
-                "Fixed"
+                return "Fixed"
             case .variable:
-                "Variable"
+                return "Variable"
         }
     }
 }
