@@ -6,15 +6,22 @@
 //
 
 import SwiftUI
+import Charts
 
 struct DailySalesChartView: View {
+    let salesData: [Sale]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Chart(salesData) { sale in
+            BarMark(x: .value("Day", sale.saleDate, unit: .day), y: .value("Sales", sale.quantity))
+        }
     }
 }
 
 struct DailySalesChartView_Previews: PreviewProvider {
     static var previews: some View {
-        DailySalesChartView()
+        DailySalesChartView(salesData: Sale.threeMonthsExamples())
+            .aspectRatio(1,contentMode: .fit)
+            .padding()
     }
 }
