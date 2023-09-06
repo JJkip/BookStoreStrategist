@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct SimpleBookSalesView: View {
+    @ObservedObject var salesViewModel: SalesViewModel
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            WeeklySalesChartView(salesViewModel: salesViewModel, salesData: WeeklySalesChartView)
+        }
     }
 }
 
 struct SimpleBookSalesView_Previews: PreviewProvider {
     static var previews: some View {
-        SimpleBookSalesView()
+        SimpleBookSalesView(salesViewModel: .preview)
     }
 }
